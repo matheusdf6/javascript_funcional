@@ -1,0 +1,24 @@
+PARADIGMAS => Modelo ou Padrão a seguir
+|> Como vou resolver esse problema?
+|> Como eu "enxergo" o problema? Um conjunto de objetos
+
+• Linguagens estão adquirindo aspectos do paradigma funcional
+• Linguagens podem ser nativamente funcionais, ou podem ser multiparadigmas, tendo a opção de usar o código de maneira procedural, orientada a objeto, ou funcional.
+• Aprender um paradigma é um pré-requisito para aprender padrões arquiteturais. 
+    |> Um padrão deve estar alinhado a um paradigma
+    |> "Anti-padrão" - Quando conflita com o paradigma
+
+PRINCIPAIS PARADIGMAS
+• Paradigma Funcional - 1957 - Linguagem LISP
+    |> Tende a consumir um pouco mais de memoria e de processamento, muito por conta de trabalhar com poucas variáveis.
+    |> É mais fácil implementar código paralelo e reusável. 
+• Paradigma Procedural
+• Paradigma Orientação a Objeto
+
+CÓDIGO IMPERATIVO -> Código mais explícito, onde é explicado como está sendo realizado um processo. Logo, ele é mais focado no fluxo. Por ser mais explicitio, ele é mais verboso, e portanto é um código mais extenso.
+CÓDIGO DECLARATIVO -> Código implicito, onde você instrui O QUE você quer, passando parâmetros e esperando retornos. Ele tende a ser um código mais reutilizavel, e portanto é menos extenso. Linguagens como SQL e HTML são exemplos, pois você não instrui COMO vai pegar o código de uma tabela, mas sim O QUE você quer dela.
+
+PROGRAMAÇÃO FUNCIONAL
+• First Class Functions -> Funções são tratados com importância no código, e assumidas como valores
+• Higher Order Functions -> Funções passsadas como parâmetros, fazendo composição de funções.
+• Imutabilidade -> Não há variáveis que são alteradas ao longo do código. Para isso, evita-se compartilhamento de espaço de memória usando atribuição por valor. Só há mutabilidade dentro de um escopo bem restrito, onde há grande controle.
